@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BE691451ED40AEC0062A5EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE691441ED40AEC0062A5EA /* main.m */; };
+		9BE691481ED40AEC0062A5EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE691471ED40AEC0062A5EA /* AppDelegate.m */; };
+		9BE6914B1ED40AEC0062A5EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE6914A1ED40AEC0062A5EA /* ViewController.m */; };
+		9BE6914E1ED40AEC0062A5EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE6914C1ED40AEC0062A5EA /* Main.storyboard */; };
+		9BE691511ED40AEC0062A5EA /* MFCDatePackerView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BE6914F1ED40AEC0062A5EA /* MFCDatePackerView.xcdatamodeld */; };
+		9BE691531ED40AEC0062A5EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE691521ED40AEC0062A5EA /* Assets.xcassets */; };
+		9BE691561ED40AEC0062A5EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE691541ED40AEC0062A5EA /* LaunchScreen.storyboard */; };
+		9BE691611ED40AEC0062A5EA /* MFCDatePackerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE691601ED40AEC0062A5EA /* MFCDatePackerViewTests.m */; };
+		9BE6916C1ED40AEC0062A5EA /* MFCDatePackerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE6916B1ED40AEC0062A5EA /* MFCDatePackerViewUITests.m */; };
+		9BE6917B1ED40B140062A5EA /* MCDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE6917A1ED40B140062A5EA /* MCDatePickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BE6915D1ED40AEC0062A5EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BE691381ED40AEC0062A5EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BE6913F1ED40AEC0062A5EA;
+			remoteInfo = MFCDatePackerView;
+		};
+		9BE691681ED40AEC0062A5EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BE691381ED40AEC0062A5EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BE6913F1ED40AEC0062A5EA;
+			remoteInfo = MFCDatePackerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BE691401ED40AEC0062A5EA /* MFCDatePackerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFCDatePackerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE691441ED40AEC0062A5EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BE691461ED40AEC0062A5EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9BE691471ED40AEC0062A5EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9BE691491ED40AEC0062A5EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9BE6914A1ED40AEC0062A5EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9BE6914D1ED40AEC0062A5EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BE691501ED40AEC0062A5EA /* MFCDatePackerView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MFCDatePackerView.xcdatamodel; sourceTree = "<group>"; };
+		9BE691521ED40AEC0062A5EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BE691551ED40AEC0062A5EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BE691571ED40AEC0062A5EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE6915C1ED40AEC0062A5EA /* MFCDatePackerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFCDatePackerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE691601ED40AEC0062A5EA /* MFCDatePackerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFCDatePackerViewTests.m; sourceTree = "<group>"; };
+		9BE691621ED40AEC0062A5EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE691671ED40AEC0062A5EA /* MFCDatePackerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFCDatePackerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE6916B1ED40AEC0062A5EA /* MFCDatePackerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFCDatePackerViewUITests.m; sourceTree = "<group>"; };
+		9BE6916D1ED40AEC0062A5EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE691791ED40B140062A5EA /* MCDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDatePickerView.h; sourceTree = "<group>"; };
+		9BE6917A1ED40B140062A5EA /* MCDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDatePickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BE6913D1ED40AEC0062A5EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE691591ED40AEC0062A5EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE691641ED40AEC0062A5EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BE691371ED40AEC0062A5EA = {
+			isa = PBXGroup;
+			children = (
+				9BE691421ED40AEC0062A5EA /* MFCDatePackerView */,
+				9BE6915F1ED40AEC0062A5EA /* MFCDatePackerViewTests */,
+				9BE6916A1ED40AEC0062A5EA /* MFCDatePackerViewUITests */,
+				9BE691411ED40AEC0062A5EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BE691411ED40AEC0062A5EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BE691401ED40AEC0062A5EA /* MFCDatePackerView.app */,
+				9BE6915C1ED40AEC0062A5EA /* MFCDatePackerViewTests.xctest */,
+				9BE691671ED40AEC0062A5EA /* MFCDatePackerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BE691421ED40AEC0062A5EA /* MFCDatePackerView */ = {
+			isa = PBXGroup;
+			children = (
+				9BE691461ED40AEC0062A5EA /* AppDelegate.h */,
+				9BE691471ED40AEC0062A5EA /* AppDelegate.m */,
+				9BE691491ED40AEC0062A5EA /* ViewController.h */,
+				9BE6914A1ED40AEC0062A5EA /* ViewController.m */,
+				9BE691791ED40B140062A5EA /* MCDatePickerView.h */,
+				9BE6917A1ED40B140062A5EA /* MCDatePickerView.m */,
+				9BE6914C1ED40AEC0062A5EA /* Main.storyboard */,
+				9BE691521ED40AEC0062A5EA /* Assets.xcassets */,
+				9BE691541ED40AEC0062A5EA /* LaunchScreen.storyboard */,
+				9BE691571ED40AEC0062A5EA /* Info.plist */,
+				9BE6914F1ED40AEC0062A5EA /* MFCDatePackerView.xcdatamodeld */,
+				9BE691431ED40AEC0062A5EA /* Supporting Files */,
+			);
+			path = MFCDatePackerView;
+			sourceTree = "<group>";
+		};
+		9BE691431ED40AEC0062A5EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BE691441ED40AEC0062A5EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BE6915F1ED40AEC0062A5EA /* MFCDatePackerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BE691601ED40AEC0062A5EA /* MFCDatePackerViewTests.m */,
+				9BE691621ED40AEC0062A5EA /* Info.plist */,
+			);
+			path = MFCDatePackerViewTests;
+			sourceTree = "<group>";
+		};
+		9BE6916A1ED40AEC0062A5EA /* MFCDatePackerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BE6916B1ED40AEC0062A5EA /* MFCDatePackerViewUITests.m */,
+				9BE6916D1ED40AEC0062A5EA /* Info.plist */,
+			);
+			path = MFCDatePackerViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BE6913F1ED40AEC0062A5EA /* MFCDatePackerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BE691701ED40AEC0062A5EA /* Build configuration list for PBXNativeTarget "MFCDatePackerView" */;
+			buildPhases = (
+				9BE6913C1ED40AEC0062A5EA /* Sources */,
+				9BE6913D1ED40AEC0062A5EA /* Frameworks */,
+				9BE6913E1ED40AEC0062A5EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MFCDatePackerView;
+			productName = MFCDatePackerView;
+			productReference = 9BE691401ED40AEC0062A5EA /* MFCDatePackerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BE6915B1ED40AEC0062A5EA /* MFCDatePackerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BE691731ED40AEC0062A5EA /* Build configuration list for PBXNativeTarget "MFCDatePackerViewTests" */;
+			buildPhases = (
+				9BE691581ED40AEC0062A5EA /* Sources */,
+				9BE691591ED40AEC0062A5EA /* Frameworks */,
+				9BE6915A1ED40AEC0062A5EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BE6915E1ED40AEC0062A5EA /* PBXTargetDependency */,
+			);
+			name = MFCDatePackerViewTests;
+			productName = MFCDatePackerViewTests;
+			productReference = 9BE6915C1ED40AEC0062A5EA /* MFCDatePackerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BE691661ED40AEC0062A5EA /* MFCDatePackerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BE691761ED40AEC0062A5EA /* Build configuration list for PBXNativeTarget "MFCDatePackerViewUITests" */;
+			buildPhases = (
+				9BE691631ED40AEC0062A5EA /* Sources */,
+				9BE691641ED40AEC0062A5EA /* Frameworks */,
+				9BE691651ED40AEC0062A5EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BE691691ED40AEC0062A5EA /* PBXTargetDependency */,
+			);
+			name = MFCDatePackerViewUITests;
+			productName = MFCDatePackerViewUITests;
+			productReference = 9BE691671ED40AEC0062A5EA /* MFCDatePackerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BE691381ED40AEC0062A5EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = machao;
+				TargetAttributes = {
+					9BE6913F1ED40AEC0062A5EA = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					9BE6915B1ED40AEC0062A5EA = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BE6913F1ED40AEC0062A5EA;
+					};
+					9BE691661ED40AEC0062A5EA = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BE6913F1ED40AEC0062A5EA;
+					};
+				};
+			};
+			buildConfigurationList = 9BE6913B1ED40AEC0062A5EA /* Build configuration list for PBXProject "MFCDatePackerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BE691371ED40AEC0062A5EA;
+			productRefGroup = 9BE691411ED40AEC0062A5EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BE6913F1ED40AEC0062A5EA /* MFCDatePackerView */,
+				9BE6915B1ED40AEC0062A5EA /* MFCDatePackerViewTests */,
+				9BE691661ED40AEC0062A5EA /* MFCDatePackerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BE6913E1ED40AEC0062A5EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE691561ED40AEC0062A5EA /* LaunchScreen.storyboard in Resources */,
+				9BE691531ED40AEC0062A5EA /* Assets.xcassets in Resources */,
+				9BE6914E1ED40AEC0062A5EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE6915A1ED40AEC0062A5EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE691651ED40AEC0062A5EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BE6913C1ED40AEC0062A5EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE6917B1ED40B140062A5EA /* MCDatePickerView.m in Sources */,
+				9BE6914B1ED40AEC0062A5EA /* ViewController.m in Sources */,
+				9BE691481ED40AEC0062A5EA /* AppDelegate.m in Sources */,
+				9BE691451ED40AEC0062A5EA /* main.m in Sources */,
+				9BE691511ED40AEC0062A5EA /* MFCDatePackerView.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE691581ED40AEC0062A5EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE691611ED40AEC0062A5EA /* MFCDatePackerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE691631ED40AEC0062A5EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE6916C1ED40AEC0062A5EA /* MFCDatePackerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BE6915E1ED40AEC0062A5EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BE6913F1ED40AEC0062A5EA /* MFCDatePackerView */;
+			targetProxy = 9BE6915D1ED40AEC0062A5EA /* PBXContainerItemProxy */;
+		};
+		9BE691691ED40AEC0062A5EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BE6913F1ED40AEC0062A5EA /* MFCDatePackerView */;
+			targetProxy = 9BE691681ED40AEC0062A5EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BE6914C1ED40AEC0062A5EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BE6914D1ED40AEC0062A5EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BE691541ED40AEC0062A5EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BE691551ED40AEC0062A5EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BE6916E1ED40AEC0062A5EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BE6916F1ED40AEC0062A5EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BE691711ED40AEC0062A5EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MFCDatePackerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.com.cn.MFCDatePackerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9BE691721ED40AEC0062A5EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MFCDatePackerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.com.cn.MFCDatePackerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9BE691741ED40AEC0062A5EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MFCDatePackerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.com.cn.MFCDatePackerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MFCDatePackerView.app/MFCDatePackerView";
+			};
+			name = Debug;
+		};
+		9BE691751ED40AEC0062A5EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MFCDatePackerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.com.cn.MFCDatePackerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MFCDatePackerView.app/MFCDatePackerView";
+			};
+			name = Release;
+		};
+		9BE691771ED40AEC0062A5EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MFCDatePackerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.com.cn.MFCDatePackerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MFCDatePackerView;
+			};
+			name = Debug;
+		};
+		9BE691781ED40AEC0062A5EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MFCDatePackerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.com.cn.MFCDatePackerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MFCDatePackerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BE6913B1ED40AEC0062A5EA /* Build configuration list for PBXProject "MFCDatePackerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE6916E1ED40AEC0062A5EA /* Debug */,
+				9BE6916F1ED40AEC0062A5EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BE691701ED40AEC0062A5EA /* Build configuration list for PBXNativeTarget "MFCDatePackerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE691711ED40AEC0062A5EA /* Debug */,
+				9BE691721ED40AEC0062A5EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BE691731ED40AEC0062A5EA /* Build configuration list for PBXNativeTarget "MFCDatePackerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE691741ED40AEC0062A5EA /* Debug */,
+				9BE691751ED40AEC0062A5EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BE691761ED40AEC0062A5EA /* Build configuration list for PBXNativeTarget "MFCDatePackerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE691771ED40AEC0062A5EA /* Debug */,
+				9BE691781ED40AEC0062A5EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9BE6914F1ED40AEC0062A5EA /* MFCDatePackerView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9BE691501ED40AEC0062A5EA /* MFCDatePackerView.xcdatamodel */,
+			);
+			currentVersion = 9BE691501ED40AEC0062A5EA /* MFCDatePackerView.xcdatamodel */;
+			path = MFCDatePackerView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9BE691381ED40AEC0062A5EA /* Project object */;
+}
